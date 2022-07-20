@@ -1,7 +1,30 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../../styles/Header.css";
+
+const navLinks = [
+  {
+    path: "/home",
+    display: "Home",
+  },
+  {
+    path: "/cars",
+    display: "Cars",
+  },
+  {
+    path: "/blogs",
+    display: "Blog",
+  },
+  {
+    path: "/about",
+    display: "About",
+  },
+  {
+    path: "/contact",
+    display: "Contact",
+  },
+];
 
 const Header = () => {
   return (
@@ -38,12 +61,12 @@ const Header = () => {
           <Row>
             <Col lg="4" md="3" sm="4">
               <div className="logo">
-                <Link to="/home">
-                  <i class="ri-car-line"></i>
-                  <span>
-                    Rent Car <br /> Service
-                  </span>
-                </Link>
+                <h1>
+                  <Link to="/home" className="d-flex align-items-center gap-2">
+                    <i class="ri-car-line"></i>
+                    <span>GOMISAUTO</span>
+                  </Link>
+                </h1>
               </div>
             </Col>
             <Col lg="3" md="3" sm="4">
@@ -62,14 +85,14 @@ const Header = () => {
                 <span>
                   <i class="ri-time-line"></i>
                 </span>
-                <div className="header_location d-flex align-items-center gap-2">
+                <div className="header_location_content">
                   <h4>Sunday to Friday</h4>
                   <h6>09:am - 06:pm</h6>
                 </div>
               </div>
             </Col>
             <Col lg="2" md="3" sm="0">
-              <button className="header_btn btn">
+              <button className="header_btn btn d-flex align-items-center justify-content-end text-end">
                 <Link to="/contact">
                   <i class="ri-phone-line"></i> Request a call
                 </Link>
@@ -77,6 +100,42 @@ const Header = () => {
             </Col>
           </Row>
         </Container>
+
+        {/* Main navigation*/}
+        <div className="main_navbar">
+          <Container>
+            <div className="navigation_wrapper d-flex align-items-center justify-content-between">
+              <span className="mobile_menu">
+                <i class="ri-menu-line"></i>
+              </span>
+              <div className="navigation">
+                <div className="menu">
+                  {navLinks.map((item, index) => {
+                    return (
+                      <NavLink
+                        to={item.path}
+                        key={index}
+                        className={(navClass) =>
+                          navClass.isActive ? "nav_active " : "nav_item"
+                        }
+                      >
+                        {item.display}
+                      </NavLink>
+                    );
+                  })}
+                </div>
+              </div>
+              <div className="nav_right">
+                <div className="search_box">
+                  <input type="text" placeholder="Search" />
+                  <span>
+                    <i class="ri-search-line"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </Container>
+        </div>
       </div>
     </header>
   );

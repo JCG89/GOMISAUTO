@@ -31,3 +31,104 @@
 .header_top_right a:hover {
   color: #fff;
 }
+/*Header---midlle style*/
+
+.header_middle {
+  padding: 20px 0px;
+}
+.logo h1 a span {
+  font-size: 1.5rem;
+}
+.logo h1 a i {
+  font-size: 2.1rem;
+  color: #000d6b;
+  font-weight: 700;
+}
+.logo h1 {
+  line-height: 1.4rem;
+}
+.logo h1 a {
+  text-decoration: none;
+  color: #000d6b;
+}
+.header_location span i {
+  font-size: 2rem;
+  color: #000d6b;
+}
+.header_location_content h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000d6b;
+}
+.header_location_content h6 {
+  font-weight: 600;
+}
+.header_btn {
+  background: #000d6b;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.header_btn a {
+  display: flex;
+  align-items: center;
+  column-gap: 0.4rem;
+  color: #fff;
+  text-decoration: none;
+}
+.header_btn a:hover {
+  color: red;
+}
+/* Main navigation style*/
+.main_navbar {
+  padding: 15px 0px;
+  background: #000d6b;
+}
+.mobile_menu i {
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.mobile_menu {
+  display: none;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 2.7rem;
+}
+.nav_item {
+  color: #fff;
+  text-decoration: none;
+  transform: 0.3s;
+}
+.nav_item:hover {
+  color: #f9a826;
+}
+.search_box {
+  border: 1px solid #000d6b;
+  padding: 7px 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background: #020a4de9;
+}
+.search_box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+.search_box span i {
+  color: #fff;
+  cursor: pointer;
+}
+.search_box input::placeholder {
+  font-size: 0.8rem;
+}
+.nav_active {
+  color: #f9a826;
+  text-decoration: none;
+}
