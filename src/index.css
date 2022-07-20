@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #000d6b;
+  color: #27ae60;
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -44,7 +44,7 @@ ul {
   list-style-type: none;
 }
 .section_title {
-  color: #000d6b;
+  color: #27ae60;
   font-weight: 600;
   font-size: 1.2rem;
 }
@@ -72,7 +72,7 @@ section {
 }
 .btn:hover {
   color: #fff;
-  background: #000d6b;
+  background: #27ae60;
 }
 /* Mediaqueries*/
 

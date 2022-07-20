@@ -1,0 +1,39 @@
+.footer {
+  background: #387419;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.715);
+}
+.footer_logo i {
+  color: rgba(255, 255, 255, 0.715);
+  font-weight: 400;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.footer_logo span {
+  color: rgba(255, 255, 255, 0.715);
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.footer_logo-content {
+  color: rgba(255, 255, 255, 0.715);
+  margin-top: 15px;
+  line-height: 30px;
+}
+.quick_link {
+  border: none;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.715);
+}
+.quick_link a {
+  color: rgba(255, 255, 255, 0.715);
+  text-decoration: none;
+  font-size: 1rem;
+}
+.footer_link-title {
+  color: #fff;
+}
+.office_info {
+}

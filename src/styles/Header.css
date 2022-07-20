@@ -1,6 +1,6 @@
 .header_top {
   padding: 10px 0px;
-  background: #000d6b;
+  background: #387419;
   color: #fff;
 }
 .header_top_left {
@@ -18,7 +18,7 @@
 }
 .header_top_help i {
   background: #fff;
-  color: #000d6b;
+  color: #387419;
   padding: 2px 4px;
   border-radius: 50px;
   font-size: 0.7rem;
@@ -41,7 +41,7 @@
 }
 .logo h1 a i {
   font-size: 2.1rem;
-  color: #000d6b;
+  color: #387419;
   font-weight: 700;
 }
 .logo h1 {
@@ -49,22 +49,22 @@
 }
 .logo h1 a {
   text-decoration: none;
-  color: #000d6b;
+  color: #387419;
 }
 .header_location span i {
   font-size: 2rem;
-  color: #000d6b;
+  color: #387419;
 }
 .header_location_content h4 {
   font-size: 1rem;
   font-weight: 600;
-  color: #000d6b;
+  color: #387419;
 }
 .header_location_content h6 {
   font-weight: 600;
 }
 .header_btn {
-  background: #000d6b;
+  background: #387419;
   padding: 10px 20px;
   border: none;
   outline: none;
@@ -78,12 +78,12 @@
   text-decoration: none;
 }
 .header_btn a:hover {
-  color: red;
+  color: #f9a826;
 }
 /* Main navigation style*/
 .main_navbar {
   padding: 15px 0px;
-  background: #000d6b;
+  background: #387419;
 }
 .mobile_menu i {
   color: #fff;
@@ -107,12 +107,12 @@
   color: #f9a826;
 }
 .search_box {
-  border: 1px solid #000d6b;
+  border: 1px solid #387419;
   padding: 7px 12px;
   display: flex;
   align-items: center;
   border-radius: 50px;
-  background: #020a4de9;
+  background: #387419;
 }
 .search_box input {
   background: transparent;
