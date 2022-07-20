@@ -1,0 +1,33 @@
+.header_top {
+  padding: 10px 0px;
+  background: #000d6b;
+  color: #fff;
+}
+.header_top_left {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+.header_top_left span {
+  font-size: 0.8rem;
+}
+.header_top_help {
+  display: flex;
+  align-items: center;
+  column-gap: 0.4rem;
+}
+.header_top_help i {
+  background: #fff;
+  color: #000d6b;
+  padding: 2px 4px;
+  border-radius: 50px;
+  font-size: 0.7rem;
+}
+.header_top_right a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+}
+.header_top_right a:hover {
+  color: #fff;
+}
