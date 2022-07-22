@@ -5,16 +5,20 @@ import "../../styles/Footer.css";
 
 const quickLinks = [
   {
+    path: "/",
+    display: "Accueil",
+  },
+  {
     path: "/about",
-    display: "About",
+    display: "A propos",
   },
   {
     path: "#",
-    display: "Privacy Policy",
+    display: "Politique de confidentialités",
   },
   {
     path: "/cars",
-    display: "Cars",
+    display: "Voitures",
   },
   {
     path: "/blogs",
@@ -22,10 +26,12 @@ const quickLinks = [
   },
   {
     path: "/contact",
-    display: "Contact",
+    display: "Contactez-nous",
   },
 ];
 const Footer = () => {
+  const date = new Date();
+  const year = date.getFullYear();
   return (
     <footer className="footer">
       <Container>
@@ -38,7 +44,7 @@ const Footer = () => {
                   className="d-flex align-items-center gap-2"
                   style={{ textDecoration: "none" }}
                 >
-                  <i class="ri-car-line"></i>
+                  <i className="ri-car-line"></i>
                   <span>GOMISAUTO</span>
                 </Link>
               </h1>
@@ -79,25 +85,36 @@ const Footer = () => {
           </Col>
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer_link-title mb-4">Head of office</h5>
+              <h5 className="footer_link-title mb-4">Siége social</h5>
               <p className="office_info">
                 14 Avenue de la République 94500 Champigny/Marne
               </p>
               <p className="office_info">Tel: 06 21 45 60 56</p>
               <p className="office_info">Email: christophegomis89@gmail.com</p>
-              <p className="office_info">Office Time: 09am - 06pm</p>
+              <p className="office_info">Heure de bureau: 09 h - 18 h</p>
             </div>
           </Col>
           <Col lg="3" md="4">
             <div className="mb-4">
               <h5 className="footer_link-title">Newsletter</h5>
-              <p className="section_description">Subscribe newsletter</p>
+              <p className="section_description">
+                Abonnez-vous à la newsletter
+              </p>
               <div className="newsletter">
                 <input type="email" placeholder="Email" />
                 <span>
-                  <i class="ri-mail-send-fill"></i>
+                  <i className="ri-mail-send-fill"></i>
                 </span>
               </div>
+            </div>
+          </Col>
+          <Col lg="12">
+            <div className="footer_bottom">
+              <p className="section_description d-flex align-items-center justify-content-center gap-1 pt-4">
+                <i className="ri-copyright-line"></i> Copyright{" "}
+                {`${year} . Réalisé
+                par Jean Christophe Gomis tous doits réservés`}
+              </p>
             </div>
           </Col>
         </Row>

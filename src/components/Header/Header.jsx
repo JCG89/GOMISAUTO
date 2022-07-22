@@ -6,11 +6,11 @@ import "../../styles/Header.css";
 const navLinks = [
   {
     path: "/home",
-    display: "Home",
+    display: "Accueil",
   },
   {
     path: "/cars",
-    display: "Cars",
+    display: "Voitures",
   },
   {
     path: "/blogs",
@@ -18,11 +18,11 @@ const navLinks = [
   },
   {
     path: "/about",
-    display: "About",
+    display: "A propos",
   },
   {
     path: "/contact",
-    display: "Contact",
+    display: "Contactez-nous",
   },
 ];
 
@@ -36,19 +36,19 @@ const Header = () => {
           <Row>
             <Col lg="6" md="6" sm="6">
               <div className="header_top_left">
-                <span>Need Help?</span>
+                <span>Besoin d'aide?</span>
                 <span className="header_top_help">
-                  <i class="ri-phone-line"></i>+33621456056
+                  <i className="ri-phone-line"></i>+33621456056
                 </span>
               </div>
             </Col>
             <Col lg="6" md="6" sm="6">
               <div className="header_top_right d-flex align-items-center justify-content-end gap-3">
                 <Link to="#" className="d-flex align-items-center gap-1">
-                  <i class="ri-login-circle-line"></i>Login
+                  <i className="ri-login-circle-line"></i>Connexion
                 </Link>
                 <Link to="#" className="d-flex align-items-center gap-1">
-                  <i class="ri-user-line"></i>Register
+                  <i className="ri-user-line"></i>Inscription
                 </Link>
               </div>
             </Col>
@@ -63,7 +63,7 @@ const Header = () => {
               <div className="logo">
                 <h1>
                   <Link to="/home" className="d-flex align-items-center gap-2">
-                    <i class="ri-car-line"></i>
+                    <i className="ri-car-line"></i>
                     <span>GOMISAUTO</span>
                   </Link>
                 </h1>
@@ -72,10 +72,10 @@ const Header = () => {
             <Col lg="3" md="3" sm="4">
               <div className="header_location d-flex align-items-center gap-2">
                 <span>
-                  <i class="ri-earth-fill"></i>
+                  <i className="ri-earth-fill"></i>
                 </span>
                 <div className="header_location_content">
-                  <h4>Paris ,FRANCE</h4>
+                  <h4>Paris FRANCE</h4>
                   <h6>Champigny Sur Marne</h6>
                 </div>
               </div>
@@ -83,18 +83,18 @@ const Header = () => {
             <Col lg="3" md="3" sm="4">
               <div className="header_location d-flex align-items-center gap-2">
                 <span>
-                  <i class="ri-time-line"></i>
+                  <i className="ri-time-line"></i>
                 </span>
                 <div className="header_location_content">
-                  <h4>Sunday to Friday</h4>
-                  <h6>09:am - 06:pm</h6>
+                  <h4>Du Lundi au Vendredi</h4>
+                  <h6>09 h - 18h </h6>
                 </div>
               </div>
             </Col>
             <Col lg="2" md="3" sm="0">
               <button className="header_btn btn d-flex align-items-center justify-content-end text-end">
                 <Link to="/contact">
-                  <i class="ri-phone-line"></i> Request a call
+                  <i className="ri-phone-line"></i> Appel
                 </Link>
               </button>
             </Col>
@@ -106,7 +106,7 @@ const Header = () => {
           <Container>
             <div className="navigation_wrapper d-flex align-items-center justify-content-between">
               <span className="mobile_menu">
-                <i class="ri-menu-line"></i>
+                <i className="ri-menu-line"></i>
               </span>
               <div className="navigation">
                 <div className="menu">
@@ -127,9 +127,9 @@ const Header = () => {
               </div>
               <div className="nav_right">
                 <div className="search_box">
-                  <input type="text" placeholder="Search" />
+                  <input type="text" placeholder="Rechercher" />
                   <span>
-                    <i class="ri-search-line"></i>
+                    <i className="ri-search-line"></i>
                   </span>
                 </div>
               </div>

@@ -1,0 +1,73 @@
+.find_cars-left {
+  background: linear-gradient(rgb(249, 168, 38, 0.9), rgb(249, 168, 38, 0.9)),
+    url("../assets/all-images/toyota-offer-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 35px;
+}
+.find_cars-left h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #fff;
+}
+.form_group {
+  width: 30%;
+  margin-bottom: 0;
+}
+.form_group input {
+  border: 1px #7c8a972a;
+  padding: 8px 12px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.form_group input ::placeholder {
+  color: #7c8a97;
+}
+.find_car-btn {
+  margin-left: 15px;
+  border: none;
+  background: #154360;
+  color: #fff;
+}
+.find_car-btn:hover {
+  color: rgb(249, 168, 38, 0.9);
+}
+.form {
+  background: #fff;
+  padding-top: 55px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.select_group {
+  width: 30%;
+}
+.select_group select {
+  width: 100%;
+  padding: 8px 12px;
+  border: #7c8a972a;
+  outline: none;
+  color: #7c8a97;
+}
+.form_row {
+  background: #fff;
+  box-shadow: 5px 5px 15px -5px #7c8a97;
+}
+.hero_slider-section {
+  position: relative;
+  z-index: 10;
+  margin-bottom: 200px;
+}
+.hero_form {
+  position: absolute;
+  bottom: -160px;
+  z-index: 11;
+  width: 100%;
+}
+.journey_time::before {
+  content: "Temps de parcours";
+  margin-right: 0.8rem;
+  color: #7c8a97;
+}
