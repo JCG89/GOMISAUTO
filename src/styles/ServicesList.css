@@ -1,0 +1,15 @@
+.service_item span i {
+  font-size: 2.5rem;
+  color: rgba(15, 79, 59, 0.9);
+}
+.service_item span i:hover {
+  color: #f9a826;
+}
+.service_item h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.service_item h6:hover {
+  color: #f9a826;
+}

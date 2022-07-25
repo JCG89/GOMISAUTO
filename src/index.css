@@ -8,8 +8,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto Condensed", sans-serif, "Source Sans Pro", sans-serif,
-    "Ubuntu", sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif, sans-serif,
+    "Source Sans Pro", sans-serif, "Ubuntu", sans-serif;
 }
 
 /* Predefine css*/

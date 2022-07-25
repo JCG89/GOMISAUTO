@@ -1,0 +1,10 @@
+.about_section-item {
+  column-gap: 3rem;
+}
+.about_section-item p i {
+  color: rgba(15, 79, 59, 0.9);
+  font-size: 1.1rem;
+}
+.section_title h2 {
+  color: rgba(15, 79, 59, 0.9);
+}

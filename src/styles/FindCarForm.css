@@ -1,14 +1,14 @@
 .find_cars-left {
-  background: linear-gradient(rgb(249, 168, 38, 0.9), rgb(249, 168, 38, 0.9)),
+  background: linear-gradient(rgba(15, 79, 59, 0.9), rgba(15, 79, 59, 0.9)),
     url("../assets/all-images/toyota-offer-2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 65px 35px;
 }
-.find_cars-left h2 {
+.find_cars-left h4 {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
 }
 .form_group {
@@ -28,7 +28,7 @@
 .find_car-btn {
   margin-left: 15px;
   border: none;
-  background: #154360;
+  background: rgba(15, 79, 59, 0.9);
   color: #fff;
 }
 .find_car-btn:hover {
@@ -62,7 +62,7 @@
 }
 .hero_form {
   position: absolute;
-  bottom: -160px;
+  bottom: -150px;
   z-index: 11;
   width: 100%;
 }
