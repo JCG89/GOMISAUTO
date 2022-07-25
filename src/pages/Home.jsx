@@ -7,6 +7,9 @@ import AboutSection from "../components/UI/AboutSection";
 import ServicesList from "../components/UI/ServicesList";
 import carData from "../assets/data/carData";
 import CarItem from "../components/UI/CarItem";
+import BecomeDriver from "../components/UI/BecomeDriver";
+import Testimonial from "../components/UI/Testimonial";
+import BlogList from "../components/UI/BlogList";
 
 const Home = () => {
   return (
@@ -40,7 +43,7 @@ const Home = () => {
                 className="section_title  text-center"
                 style={{ color: "rgb(15, 79, 59, 0.9)" }}
               >
-                Nos Services favoris
+                NOS SERVICES FAVORIS
               </h2>
             </Col>
             <ServicesList />
@@ -53,12 +56,49 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
-              <h6 className="section_subtitle"> Viens avec</h6>
-              <h2 className="section_title">Des offres chaudes</h2>
+              <h2
+                className="section_title"
+                style={{ color: "rgb(15, 79, 59, 0.9)" }}
+              >
+                NOS MEILLEURS OFFRES
+              </h2>
             </Col>
             {carData.slice(0, 6).map((item) => {
               return <CarItem item={item} key={item.id} />;
             })}
+          </Row>
+        </Container>
+      </section>
+      {/*==========Become driver section*/}
+
+      <BecomeDriver />
+
+      {/*========Testimonial section*/}
+      <section className="section">
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-4 text-center">
+              <h2 className="section_title" style={{ color: "#154360" }}>
+                TÉMOIGNAGES
+              </h2>
+            </Col>
+            <Testimonial />
+          </Row>
+        </Container>
+      </section>
+      {/*======Blog section */}
+      <section className="section">
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-5 text-center">
+              <h2
+                className="section_title"
+                style={{ color: "#154360", marginTop: "15px" }}
+              >
+                NOS DERNIERS BLOGS
+              </h2>
+            </Col>
+            <BlogList />
           </Row>
         </Container>
       </section>
