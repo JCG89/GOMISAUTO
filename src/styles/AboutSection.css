@@ -8,3 +8,21 @@
 .section_title h2 {
   color: rgba(15, 79, 59, 0.9);
 }
+
+@media only screen and (max-width: 990px) {
+  .about_section-content h4 {
+    font-size: 1.5rem;
+    color: #154360;
+  }
+
+  .about_section-item {
+    column-gap: 3rem;
+  }
+  .about__section-item p {
+    margin-bottom: 0;
+  }
+
+  .section_description i {
+    font-size: 0.6rem;
+  }
+}

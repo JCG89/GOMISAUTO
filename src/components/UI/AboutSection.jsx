@@ -11,8 +11,8 @@ const AboutSection = () => {
         <Row>
           <Col lg="6" md="6">
             <div className="about_section-content">
-              <h4 className="section_subtitle">A propos de nous</h4>
-              <h2 className="section_title">Bienvenue chez Gomis Auto</h2>
+              <h4 className="section_subtitle">A PROPOS DE NOUS </h4>
+
               <p className="section_description">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Praesentium animi quos nulla sint iure aliquam molestiae,

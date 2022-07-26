@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/Header.css";
@@ -27,9 +27,12 @@ const navLinks = [
 ];
 
 const Header = () => {
+  const menuRef = useRef(null);
+
+  const menuToggle = () => menuRef.current.classList.toggle("menu_active");
   return (
     <header className="header">
-      {/*------header top*/}
+      {/*==================header top=============*/}
 
       <div className="header_top">
         <Container>
@@ -55,8 +58,9 @@ const Header = () => {
           </Row>
         </Container>
       </div>
-      {/*------Header_top*/}
+      {/*==============Header_middle====================*/}
       <div className="header_middle">
+        {" "}
         <Container>
           <Row>
             <Col lg="4" md="3" sm="4">
@@ -100,42 +104,42 @@ const Header = () => {
             </Col>
           </Row>
         </Container>
+      </div>
 
-        {/* Main navigation*/}
-        <div className="main_navbar">
-          <Container>
-            <div className="navigation_wrapper d-flex align-items-center justify-content-between">
-              <span className="mobile_menu">
-                <i className="ri-menu-line"></i>
-              </span>
-              <div className="navigation">
-                <div className="menu">
-                  {navLinks.map((item, index) => {
-                    return (
-                      <NavLink
-                        to={item.path}
-                        key={index}
-                        className={(navClass) =>
-                          navClass.isActive ? "nav_active " : "nav_item"
-                        }
-                      >
-                        {item.display}
-                      </NavLink>
-                    );
-                  })}
-                </div>
-              </div>
-              <div className="nav_right">
-                <div className="search_box">
-                  <input type="text" placeholder="Rechercher" />
-                  <span>
-                    <i className="ri-search-line"></i>
-                  </span>
-                </div>
+      {/* ======================Main navigation=======================*/}
+      <div className="main_navbar">
+        <Container>
+          <div className="navigation_wrapper d-flex align-items-center justify-content-between">
+            <span className="mobile_menu">
+              <i class="ri-menu-line" onClick={menuToggle}></i>
+            </span>
+            <div className="navigation" ref={menuRef} onClick={menuToggle}>
+              <div className="menu">
+                {navLinks.map((item, index) => {
+                  return (
+                    <NavLink
+                      to={item.path}
+                      key={index}
+                      className={(navClass) =>
+                        navClass.isActive ? "nav_active " : "nav_item"
+                      }
+                    >
+                      {item.display}
+                    </NavLink>
+                  );
+                })}
               </div>
             </div>
-          </Container>
-        </div>
+            <div className="nav_right">
+              <div className="search_box">
+                <input type="text" placeholder="Rechercher" />
+                <span>
+                  <i className="ri-search-line"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </Container>
       </div>
     </header>
   );

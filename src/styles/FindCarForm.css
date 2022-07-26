@@ -71,3 +71,86 @@
   margin-right: 0.8rem;
   color: #7c8a97;
 }
+@media only screen and (max-width: 992px) {
+  .find_cars-left {
+    padding: 65px 22px;
+  }
+
+  .find_cars-left h2 {
+    font-size: 1.5rem;
+  }
+  .find_car-btn {
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .form {
+    padding: 30px 10px;
+  }
+
+  .form_group select {
+    padding: 8px 12px;
+    font-size: 10px;
+  }
+
+  .form_group input {
+    font-size: 12px;
+  }
+
+  .hero_form {
+    bottom: -130px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .find_cars-left {
+    padding-top: 20px;
+    padding-bottom: 0;
+    background: #fff;
+    text-align: center;
+  }
+  .find_cars-left h4 {
+    color: #7c8a97;
+    font-size: 1.2rem;
+  }
+
+  .form {
+    padding: 20px 10px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .form_group {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .find_cars-left h4 {
+    color: #7c8a97;
+  }
+
+  .form_group input {
+    font-size: 0.7rem !important;
+  }
+
+  .select_group {
+    width: 100%;
+    padding-right: 10px;
+    font-size: 0.7rem;
+  }
+
+  .find_car-btn {
+    font-size: 0.8rem;
+    width: 100%;
+    height: 30px;
+  }
+
+  .find_cars-left h2 {
+    font-size: 1rem;
+  }
+
+  .hero_form {
+    bottom: -200px;
+  }
+}
