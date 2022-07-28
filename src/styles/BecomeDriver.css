@@ -14,3 +14,37 @@
   color: #fff;
   line-height: 65px;
 }
+@media only screen and (max-width: 992px) {
+  .become_driver-title {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .become_driver {
+    padding: 50pxp 0px;
+  }
+  .become_driver-title {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+  }
+  .become_driver-btn {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .become_driver-img {
+    width: 50%;
+  }
+  .become_driver {
+    text-align: center;
+  }
+  .section_title {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .become_driver-btn {
+    font-weight: 700;
+  }
+}

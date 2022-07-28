@@ -1,0 +1,20 @@
+@media only screen and (max-width: 768px) {
+  .testimonial p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+  }
+  .testimonial h6 {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .testimonial img {
+    width: 60px !important;
+    height: 60px !important;
+    object-fit: cover;
+  }
+  .section_title {
+    margin-top: 50px;
+  }
+}

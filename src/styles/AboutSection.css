@@ -26,3 +26,23 @@
     font-size: 0.6rem;
   }
 }
+@media only screen and (max-width: 768px) {
+  .about_img {
+    margin-top: 100px;
+  }
+  .about__section {
+    margin-top: 250px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .about__section {
+    margin-top: 200px;
+  }
+  .about_section-content h4 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .section_title {
+    font-size: 1rem;
+  }
+}

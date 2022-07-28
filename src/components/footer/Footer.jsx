@@ -85,7 +85,7 @@ const Footer = () => {
           </Col>
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer_link-title mb-4">Siége social</h5>
+              <h5 className="footer_link-title mb-4">SIEGE SOCIAL</h5>
               <p className="office_info">
                 14 Avenue de la République 94500 Champigny/Marne
               </p>
@@ -94,8 +94,8 @@ const Footer = () => {
               <p className="office_info">Heure de bureau: 09 h - 18 h</p>
             </div>
           </Col>
-          <Col lg="3" md="4">
-            <div className="mb-4">
+          <Col lg="3" md="4" sm="12" className="newsletter_first">
+            <div className="mb-4 newsletter_item">
               <h5 className="footer_link-title">Newsletter</h5>
               <p className="section_description">
                 Abonnez-vous à la newsletter

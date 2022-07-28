@@ -66,6 +66,35 @@
 }
 @media only screen and (max-width: 768px) {
   .footer_logo-content {
+    font-size: 0.8rem;
     margin-top: 0px;
+    text-align: justify;
+  }
+  .footer_logo {
+    margin-top: -25px;
+  }
+  .newsletter_first {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .quick_link {
+    font-size: 0.8rem;
+  }
+  .footer_link-title {
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .footer_logo {
+    display: block;
+    line-height: 0.5rem;
+    margin-top: 0px;
+  }
+  .newsletter_item {
+    margin: 0 auto;
+  }
+  .footer_bottom p {
+    font-size: 0.7rem;
   }
 }
