@@ -8,6 +8,20 @@
 .section_title h2 {
   color: rgba(15, 79, 59, 0.9);
 }
+.ection_subtitle {
+  margin-top: 50px;
+}
+.about_section {
+  margin-top: 30px;
+}
+.about_subtitle {
+  color: #154360;
+  font-weight: 600;
+}
+.about_section p {
+  line-height: 2rem;
+  margin-top: 20px;
+}
 
 @media only screen and (max-width: 990px) {
   .about_section-content h4 {
