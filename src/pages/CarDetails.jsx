@@ -4,6 +4,7 @@ import carData from "../assets/data/carData";
 import Helmet from "../components/Helmet/Helmet";
 import { Container, Row, Col } from "reactstrap";
 import "../styles/CarDetails.css";
+import BookingForm from "../components/UI/BookingForm";
 const CarDetails = () => {
   const { slug } = useParams();
   console.log(useParams);
@@ -87,6 +88,12 @@ const CarDetails = () => {
                     {singleCarItem.brand}
                   </span>
                 </div>
+              </div>
+            </Col>
+            <Col lg="7" className="mt-5">
+              <div className="booking-info">
+                <h5 className="mb-4 fw-bold">Coordonnées de résérvation </h5>
+                <BookingForm />
               </div>
             </Col>
           </Row>
