@@ -10,7 +10,7 @@ const navLinks = [
   },
   {
     path: "/cars",
-    display: "Voitures",
+    display: "Collection",
   },
   {
     path: "/blogs",

@@ -11,7 +11,7 @@ const AboutSection = () => {
         <Row>
           <Col lg="6" md="6">
             <div className="about_section-content">
-              <h4 className="about_subtitle">BIENVENU CHEZ GOMISAUTO</h4>
+              <h4 className="about_subtitle">BIENVENUE CHEZ GOMISAUTO</h4>
               <p className="section_description">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Praesentium animi quos nulla sint iure aliquam molestiae,

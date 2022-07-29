@@ -6,11 +6,13 @@ import { Container, Row, Col } from "reactstrap";
 import BecomeDriver from "../components/UI/BecomeDriver";
 import driveImg from "../assets/all-images/drive.jpg";
 import OurMembers from "../components/UI/OurMembers";
+import "../styles/about.css";
 
 const About = () => {
+  const title = "GOMISAUTO ";
   return (
     <Helmet title="about">
-      <CommonSection title="A PROPOS DE NOUS" />
+      <CommonSection title={title} />
       <AboutSection />
       <section className="about_page-section">
         <Container>

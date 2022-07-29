@@ -3,6 +3,13 @@
   padding: 20px;
   border-radius: 5px;
 }
+.collection {
+  margin-top: 35px;
+}
+#select {
+  border: none;
+}
+
 .car_item-info span i {
   font-size: 1.1rem;
 }
