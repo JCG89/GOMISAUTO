@@ -67,7 +67,7 @@
   width: 100%;
 }
 .journey_time::before {
-  content: "Temps de parcours";
+  content: "Durée du trajet";
   margin-right: 0.8rem;
   color: #7c8a97;
 }
@@ -125,6 +125,7 @@
     width: 100%;
     margin: auto;
     margin-bottom: 15px;
+    font-size: 12px;
   }
   .find_cars-left h4 {
     color: #7c8a97;

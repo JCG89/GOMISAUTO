@@ -12,13 +12,13 @@ const FindCarForm = () => {
           <input type="text" placeholder="Adresse d'arrivé " required />
         </FormGroup>
         <FormGroup className="form_group">
-          <input type="date" placeholder="journey date" required />
+          <input type="date" placeholder="Date du Voyage" required />
         </FormGroup>
         <FormGroup className="form_group">
           <input
             className="journey_time"
             type="time"
-            placeholder="Journey time"
+            placeholder="Durée du trajet"
             required
           />
         </FormGroup>
