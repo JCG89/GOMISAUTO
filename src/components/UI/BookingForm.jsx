@@ -1,6 +1,5 @@
 import React from "react";
 import "../../styles/BookingForm.css";
-import Payment from "./Payment";
 
 import { Form, FormGroup } from "reactstrap";
 const BookingForm = () => {
@@ -69,7 +68,6 @@ const BookingForm = () => {
           placeholder="Texte"
         ></textarea>
       </FormGroup>
-      <Payment />
     </Form>
   );
 };

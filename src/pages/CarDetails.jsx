@@ -5,12 +5,16 @@ import Helmet from "../components/Helmet/Helmet";
 import { Container, Row, Col } from "reactstrap";
 import "../styles/CarDetails.css";
 import BookingForm from "../components/UI/BookingForm";
+import Payment from "../components/UI/Payment";
 const CarDetails = () => {
   const { slug } = useParams();
-  console.log(useParams);
+
   const singleCarItem = carData.find((item) => {
     return item.carName === slug;
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [singleCarItem]);
   return (
     <Helmet title={singleCarItem.carName}>
       <section>
@@ -94,6 +98,12 @@ const CarDetails = () => {
               <div className="booking-info">
                 <h5 className="mb-4 fw-bold">Coordonnées de résérvation </h5>
                 <BookingForm />
+              </div>
+            </Col>
+            <Col lg="5" className="mt-5">
+              <div className="payement-info mt-5">
+                <h5 className="mb-4 fw-bold"> Information de paiement </h5>
+                <Payment />
               </div>
             </Col>
           </Row>

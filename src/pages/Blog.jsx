@@ -1,10 +1,21 @@
 import React from "react";
+import { Container, Row } from "reactstrap";
+import Helmet from "../components/Helmet/Helmet";
+import CommonSection from "../components/UI/CommonSection";
+import BlogList from "../components/UI/BlogList";
 
 const Blog = () => {
   return (
-    <div>
-      <h1>Blog</h1>
-    </div>
+    <Helmet tittle="Blogs">
+      <CommonSection title="BLOGS" />
+      <section>
+        <Container>
+          <Row>
+            <BlogList />
+          </Row>
+        </Container>
+      </section>
+    </Helmet>
   );
 };
 
