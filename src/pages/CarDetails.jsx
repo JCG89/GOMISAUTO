@@ -50,18 +50,21 @@ const CarDetails = () => {
                   style={{ columnGap: "4rem" }}
                 >
                   <span className="d-f align-items-center gap-1 section_description">
-                    <i class="ri-car-line" style={{ color: "#f9a826" }}></i>
+                    <i className="ri-car-line" style={{ color: "#f9a826" }}></i>
                     {singleCarItem.model}
                   </span>
                   <span className="d-f align-items-center gap-1 section_description">
                     <i
-                      class="ri-settings-3-line"
+                      className="ri-settings-3-line"
                       style={{ color: "#f9a826" }}
                     ></i>
                     {singleCarItem.automatic}
                   </span>
                   <span className="d-f align-items-center gap-1 section_description">
-                    <i class="ri-time-line" style={{ color: "#f9a826" }}></i>
+                    <i
+                      className="ri-time-line"
+                      style={{ color: "#f9a826" }}
+                    ></i>
                     {singleCarItem.speed}
                   </span>
                 </div>
@@ -70,23 +73,26 @@ const CarDetails = () => {
                   style={{ columnGap: "2.8rem" }}
                 >
                   <span className="d-f align-items-center gap-1 section_description">
-                    <i class="ri-map-pin-line" style={{ color: "#f9a826" }}></i>
+                    <i
+                      className="ri-map-pin-line"
+                      style={{ color: "#f9a826" }}
+                    ></i>
                     {singleCarItem.gps}
                   </span>
                   <span className="d-f align-items-center gap-2 section_description">
-                    <i class="ri-car-line" style={{ color: "#f9a826" }}></i>
+                    <i className="ri-car-line" style={{ color: "#f9a826" }}></i>
                     {singleCarItem.model}
                   </span>
                   <span className="d-f align-items-center gap-1 section_description">
                     <i
-                      class="ri-wheelchair-line"
+                      className="ri-wheelchair-line"
                       style={{ color: "#f9a826" }}
                     ></i>
                     {singleCarItem.seatType}
                   </span>
                   <span className="d-f align-items-center gap-1 section_description">
                     <i
-                      class="ri-building-2-line"
+                      className="ri-building-2-line"
                       style={{ color: "#f9a826" }}
                     ></i>
                     {singleCarItem.brand}

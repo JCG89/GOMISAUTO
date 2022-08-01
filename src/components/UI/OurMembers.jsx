@@ -57,7 +57,7 @@ const OurMembers = () => {
                 <img src={item.imgUrl} alt="avata01" className="w-100" />
                 <div className="single_member-social text-center">
                   <Link to={item.fbUrl}>
-                    <i class="ri-facebook-box-fill"></i>
+                    <i className="ri-facebook-box-fill"></i>
                   </Link>
                   <Link to={item.twitterUrl}>
                     <i className="ri-twitter-line"></i>
