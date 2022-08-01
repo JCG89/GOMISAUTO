@@ -11,8 +11,12 @@
   background: #fff;
   color: #154360;
 }
+.become_driver-btn:hover {
+  background: #fff;
+  color: orange;
+}
 .section_title {
-  color: #fff;
+  color: #fff !important;
   line-height: 65px;
 }
 @media only screen and (max-width: 992px) {
